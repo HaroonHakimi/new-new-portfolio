@@ -73,19 +73,20 @@ export default function Footer() {
       label: "Message",
       type: "textarea",
       id: "message",
-      placeholder: "Your message",
+      placeholder: "Nice Portfolio!",
       rows: "8",
       wrap: "soft",
       stateKey: "message",
     },
   ];
 
-  const handleInputClick = (stateKey) => {
+  const handleInputClick = (stateKey, value) => {
     setFieldValues({
       ...fieldValues,
-      [stateKey]: true,
-    });
-  };
+      [stateKey]: value,
+    })
+  }
+  
 
   const timeoutAlert = () =>
     setTimeout(() => {
@@ -179,7 +180,7 @@ export default function Footer() {
                   placeholder={field.placeholder}
                   rows={field.rows}
                   wrap={field.wrap}
-                  onClick={() => handleInputClick(field.stateKey)}
+                  onChange={(e) => handleInputClick(field.stateKey, e.target.value)}
                 ></textarea>
               ) : (
                 <input
@@ -187,7 +188,7 @@ export default function Footer() {
                   name={field.id}
                   id={field.id}
                   placeholder={field.placeholder}
-                  onClick={() => handleInputClick(field.stateKey)}
+                  onChange={(e) => handleInputClick(field.stateKey, e.target.value)}
                 />
               )}
               <motion.div

@@ -34,7 +34,7 @@ export default function Projects() {
       img: work1,
       title: "Online subscription based library platform",
       link: "https://summarist.vercel.app/",
-      detail: "Working at a startup brought the opportunity to bring many projects from their early days of development to a fully fledged application, I've had the opportunity to be a core part of multiple projects at preezie.",
+      detail: " I crafted an engaging online library where users can seamlessly read and listen to a diverse collection of books. This library offers users unlocking premium content within the library to upgrade to monthly or yearly plans",
     },
     {
       client: "Personal Project",
@@ -42,7 +42,7 @@ export default function Projects() {
       img: work2,
       title: "Twitter Clone",
       link: "https://twitter-clone-cbql.vercel.app/",
-      detail: "Empowering students with the knowledge and skills they need to succeed in the dynamic field of programming. Having tutored 100's of students within the Frontend simplified curriculum, this gives me a great inspiration to lead.",
+      detail: "Twitter clone designed to deliver a seamless user experience. Allowing for user account creation and it's ability for users to interact with eachothers comments and profiles.",
     },
     {
       client: "Scaling.so",
@@ -50,7 +50,7 @@ export default function Projects() {
       img: work3,
       title: "NFT Marketplace Application",
       link: "https://haroon-internship.vercel.app/",
-      detail: "Having over 100,000+ users in the first month, this tested my ability to scale and succeed. A small WoW based game mixed in with elements of wordle. Check it out on wowdle.app",
+      detail: "An online NFT Marketplace with a community of NFT holders. One of its stand out features is to view and interact with other NFT holders profiles.",
     },
   ]
 
