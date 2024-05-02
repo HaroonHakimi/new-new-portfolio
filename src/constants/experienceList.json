@@ -1,5 +1,30 @@
 [
   {
+    "company": "Riipen",
+    "role": "Frontend Developer",
+    "resps": [
+    ],
+    "date": "March 2024 - Present"
+  },
+  {
+    "company": "Anvill Business Center",
+    "role": "Frontend Developer",
+    "resps": [
+      
+    ],
+    "date": "March 2024 - May 2024"
+  },
+  {
+    "company": "3:5 Creatives",
+    "role": "Web Developer",
+    "resps": [
+      "Resolved technical challenges using Javascript, ensuring seamless website performance and driving a 15% traffic increase and 10% conversion boost",
+      "Crafted visually captivating websites with HTML, CSS, Javascript, driving a 20% increase in client retention",
+      "Swiftly tackled technical challenges, ensuring seamless website performance and driving a 15% increase in traffic and 10% boost in conversions"
+    ],
+    "date": "January 2024 - March 2024"
+  },
+  {
     "company": "FrontEdge Designs",
     "role": "Frontend Developer",
     "resps": [
@@ -7,7 +32,7 @@
       "Integrated OAuth using React, and Redux, leading to a 40% boost in user sessions and a 15% improvement in authentication efficiency.",
       " Designed a scalable Node.js backend API, enhancing system scalability by 25%, system flexibility by 30%, and reducing user request latency by 20% through seamless frontend-backend interaction."
     ],
-    "date": "July 2023 - Current"
+    "date": "July 2023 - December 2023"
   },
   {
     "company": "Scaling.so",

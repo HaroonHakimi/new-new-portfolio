@@ -10,6 +10,9 @@ import { useInView } from "react-intersection-observer"
 import work1 from "../../assets/Images/work1.png"
 import work2 from "../../assets/Images/work2.png"
 import work3 from "../../assets/Images/work3.png"
+import papertalk from "../../assets/Images/papertalk.png"
+import dalle from "../../assets/Images/dalle.png"
+import pricercheck from "../../assets/Images/pricercheck.png"
 
 export default function Projects() {
   const controls = useAnimation()
@@ -35,6 +38,30 @@ export default function Projects() {
       title: "Online subscription based library platform",
       link: "https://summarist.vercel.app/",
       detail: " I crafted an engaging online library where users can seamlessly read and listen to a diverse collection of books. This library offers users unlocking premium content within the library to upgrade to monthly or yearly plans",
+    },
+    {
+      client: "Personal Project",
+      year: "2024",
+      img: papertalk,
+      title: "PaperTalk",
+      link: "https://papertalkai.vercel.app/",
+      detail: "Next.js web application enabling PDF uploads stored in a Postgres database, and AI-Powered chat engineered through Langchain.js, Pinecone, OpenAI API for discussing document information.",
+    },
+    {
+      client: "Personal Project",
+      year: "2024",
+      img: dalle,
+      title: "AI Image Generator",
+      link: "https://imagegenerator-xi.vercel.app/",
+      detail: "MERN stack AI image generator app",
+    },
+    {
+      client: "Personal Project",
+      year: "2024",
+      img: pricercheck,
+      title: "PricerCheck",
+      link: "https://pricercheck.vercel.app/",
+      detail: "Next.js web scraping project leveraging Node.js to create a personalized Amazon price tracking tool, enabling users to monitor and analyze product prices dynamically.",
     },
     {
       client: "Personal Project",
@@ -86,13 +113,15 @@ export default function Projects() {
           <div className="projects--grid--content--works">
             {works.map((item, index) => {
               return (
-                <WorkCard
-                  item={item}
-                  key={index}
-                  // link={item}
-                  // delay={0.1 * index + 1}
-                  // controls={controls}
-                />
+                <a href={item.link} target="__blank">
+                  <WorkCard
+                    item={item}
+                    key={index}
+                    // link={item.link}
+                    // delay={0.1 * index + 1}
+                    // controls={controls}
+                  />
+                </a>
               )
             })}
           </div>
