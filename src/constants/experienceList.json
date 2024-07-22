@@ -1,16 +1,29 @@
 [
   {
-    "company": "Riipen",
-    "role": "Frontend Developer",
+    "company": "Headstarter AI",
+    "role": "Software Engineer",
     "resps": [
+
     ],
-    "date": "March 2024 - Present"
+    "date": "July 2024 - Present"
+  },
+  {
+    "company": "MyCritters",
+    "role": "Software Developer",
+    "resps": [
+      "Designed and managed 5+ Postgres databases on Docker and Hasura using TypeScript, improving data retrieval efficiency by 30%.",
+      "Led web scraping with Langchain.js and Ollama AI, building an API that achieved 95% accuracy. Processed 10,000+ documents using RAG.",
+      "Developed 3+ Next.js applications with GraphQL, reducing load times by 40% and improving user engagement by 20%."
+    ],
+    "date": "May 2024 - July 2024"
   },
   {
     "company": "Anvill Business Center",
     "role": "Frontend Developer",
     "resps": [
-      
+      "Utilized PostgreSQL for data integrity, ensuring low latency and 99.9% uptime, crucial for platform success and metric tracking.",
+      "Employed Node.js and Express.js  for quick connection of 150 businesses with funding resources.",
+      "Utilized React.js for frontend, aiding in onboarding of 1000 businesses and achieving a 30% listing creation rate"
     ],
     "date": "March 2024 - May 2024"
   },
