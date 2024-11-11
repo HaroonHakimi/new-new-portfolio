@@ -1,9 +1,12 @@
 [
   {
-    "company": "Headstarter AI",
+    "company": "Headstarter",
     "role": "Software Engineer",
     "resps": [
+      "Implemented a web scraper that automatically extracts data from Rate My Professor and upserts it to a Pinecone index. Integrated this with a RAG pipeline using LangChain and OpenAI GPT-4, enhancing data relevance by 40% for queries.",
+      "Built and deployed SaaS product, generating dynamic flashcards via Llama 3.1 LLM. Integrated Stripe API, driving a 15% increase in subscriptions conversions, leading web application development.",
 
+      "Developed an interactive support agent, using Next.js and a custom RAG pipeline. Boosted response accuracy by 30% with OpenAI and Pinecone integration."
     ],
     "date": "July 2024 - Present"
   },
@@ -18,7 +21,7 @@
     "date": "May 2024 - July 2024"
   },
   {
-    "company": "Anvill Business Center",
+    "company": "Riipen",
     "role": "Frontend Developer",
     "resps": [
       "Utilized PostgreSQL for data integrity, ensuring low latency and 99.9% uptime, crucial for platform success and metric tracking.",
